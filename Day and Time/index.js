@@ -1,9 +1,9 @@
 let date = new Date();
 console.log(date);
-let yr = date.getFullYear();
-console.log(yr);
+let year = date.getFullYear();
+console.log(year);
 let day = date.getDay();
-var weekDays = [
+let weekDays = [
   "Sunday",
   "Monday",
   "Tuesday",
