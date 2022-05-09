@@ -1,0 +1,12 @@
+let day = new Date();
+let today = day.getMonth() + 1 + "-" + day.getDate();
+let todaymonth = day.getMonth() + 1;
+let todaydate = day.getDate();
+let till = Math.abs(todaymonth - 12);
+let till1 = Math.abs(todaydate - 25);
+console.log(till1);
+console.log(till);
+console.log(today);
+let monthtoday = till * 30;
+document.write("Today date is ", today + "<br>");
+document.write("Total days left till Christmas =", " ", +monthtoday + till1);
