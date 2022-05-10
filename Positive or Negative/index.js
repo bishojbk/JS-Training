@@ -5,12 +5,16 @@ function Check() {
   i2 = parseInt(i2);
   if (i1 > 0) {
     document.write("The number is positive." + "<br>");
-  } else {
+  } else if (i1 < 0) {
     document.write("The number is negative." + "<br>");
+  } else {
+    document.write("The number is 0" + "<br>");
   }
   if (i2 > 0) {
     document.write("The number is positive." + "<br>");
-  } else {
+  } else if (i2 < 0) {
     document.write("The number is negative." + "<br>");
+  } else {
+    document.write("The number is 0" + "<br>");
   }
 }
