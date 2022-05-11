@@ -1,9 +1,9 @@
 function Add() {
   const input = document.getElementById("string").value;
   console.log(input);
-  let letter1 = input.charAt(0);
+  const letter1 = input.charAt(0);
   console.log(s1);
-  let letter2 = input.charAt(1);
+  const letter2 = input.charAt(1);
   let total = letter1 + letter2;
   total = total.toLowerCase();
   if (total == "py") {
