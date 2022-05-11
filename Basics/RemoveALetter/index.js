@@ -5,7 +5,7 @@ function Remove() {
   let letter = inputS.charAt(inputI);
   console.log(letter);
   letter = letter.toString();
-  let newString = inputS.replace("letter", "");
+  let newString = inputS.replace(letter, "");
   console.log(newString);
   //   document.write("The result after removing the letter is : ", newString);
 }
