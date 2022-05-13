@@ -10,5 +10,7 @@ function Check() {
     document.write(
       "The desired character exists within the 2nd to 4th position. "
     );
+  } else {
+    document.write("Wrong Result!!!");
   }
 }
