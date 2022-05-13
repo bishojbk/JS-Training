@@ -15,12 +15,12 @@ function Check() {
   let s1 = "";
   let s2 = "";
   if (
-    array[4] == "S" &&
-    array[5] == "c" &&
-    array[6] == "r" &&
-    array[7] == "i" &&
-    array[8] == "p" &&
-    array[9] == "t"
+    array[0] == "S" &&
+    array[1] == "c" &&
+    array[2] == "r" &&
+    array[3] == "i" &&
+    array[4] == "p" &&
+    array[5] == "t"
   ) {
     let string2 = string1.split("");
     console.log(string2);
