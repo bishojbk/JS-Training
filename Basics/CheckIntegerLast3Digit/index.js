@@ -11,15 +11,16 @@ function Check() {
   let split3 = number3.split("");
   let last1 = split1[length1 - 1];
   console.log(last1);
-  last1 = parseInt(last1);
   let last2 = split2[length2 - 1];
   console.log(last2);
-  last2 = parseInt(last2);
   let last3 = split3[length3 - 1];
   console.log(last3);
-  last3 = parseInt(last3);
-  if ((last1 == last2) == last3) {
-    document.write("The last digits are same. ");
+  if (last3 == last2) {
+    if (last1 == last2) {
+      document.write("The last digits are same. ");
+    } else {
+      document.write("They are not same.");
+    }
   } else {
     document.write("They are not same.");
   }
