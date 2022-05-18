@@ -9,4 +9,5 @@ function Replace() {
     array[x] = String.fromCharCode(ascii + "a".charCodeAt());
   }
   console.log(array.join(""));
+  document.write("The result is : ", array.join(""));
 }
