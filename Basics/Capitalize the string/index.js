@@ -9,4 +9,5 @@ function Replace() {
   let string1 = array;
   string1 = string1.replace(array[0], charac1);
   console.log(string1);
+  document.write("The result is :", string1);
 }
