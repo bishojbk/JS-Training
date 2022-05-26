@@ -2,6 +2,7 @@ let clicks = 0;
 
 function ICounter() {
   document.getElementById("clicks").innerHTML = clicks;
+
   clicks += 1;
 }
 function DCounter() {
