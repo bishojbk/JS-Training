@@ -10,7 +10,8 @@ body{
 .screen
 {
   background-color: black;
-  width:400px;
+  min-width:400px;
+  max-width:400px;
   min-height:100px;
   font-size: xx-large;
   color:whitesmoke;
