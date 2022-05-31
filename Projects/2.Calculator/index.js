@@ -1,4 +1,6 @@
 let clicks = "";
+screen = document.getElementById("screen");
+
 function clearScreen() {
   clicks = 0;
   document.getElementById("clicks").innerHTML = clicks;
@@ -14,18 +16,13 @@ function updateScreen(a) {
 }
 
 function displayScreen() {
-  let val = clicks;
-  console.log(val);
-  val = eval(val);
-  clicks = val;
+  clicks = eval(clicks);
   document.getElementById("clicks").innerHTML = clicks;
 }
-// function deleteScreen() {
-//   let del = clicks.split("");
-//   console.log(del);
-//   let i = del.length;
-//   for (let j = 0; j <= i; j++) {
-//     clicks = clicks + "";
-//   }
-//   document.getElementById("clicks").innerHTML = clicks;
-// }
+function deleteScreen() {
+  let del = clicks.split("");
+  console.log(del);
+  clicks = del.splice(-1, 1);
+  console.log(clicks);
+  document.getElementById("clicks").innerHTML = clicks;
+}
