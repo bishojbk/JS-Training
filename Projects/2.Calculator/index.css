@@ -15,8 +15,11 @@ body{
   min-height:100px;
   font-size: xx-large;
   color:whitesmoke;
-  text-align: right; 
+  display:flex;
+  justify-content: end;
+  align-items: flex-end;
 }
+
 .grid{
   display: grid;
   grid-template-columns: repeat(4, 100px);
