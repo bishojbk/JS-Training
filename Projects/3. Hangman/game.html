@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman</title>
+    <link rel="stylesheet" href="./game.css" />
+    <script src="./game.js"></script>
+  </head>
+  <body>
+    <div class="name">HANGMAN</div>
+    <br />
+    <br />
+    <br />
+    <div></div>
+
+    <div id="container"></div>
+    <div id="words" class="words">_ _ _ _ _</div>
+    <div id="container">
+      <ul id="keyboard">
+        <li onclick="words('q')">q</li>
+        <li onclick="words('w')">w</li>
+        <li onclick="words('e')">e</li>
+        <li onclick="words('r')">r</li>
+        <li onclick="words('t')">t</li>
+        <li onclick="words('y')">y</li>
+        <li onclick="words('u')">u</li>
+        <li onclick="words('i')">i</li>
+        <li onclick="words('o')">o</li>
+        <li onclick="words('p')">p</li>
+        <li onclick="words('a')">a</li>
+        <li onclick="words('s')">s</li>
+        <li onclick="words('d')">d</li>
+        <li onclick="words('f')">f</li>
+        <li onclick="words('g')">g</li>
+        <li onclick="words('h')">h</li>
+        <li onclick="words('j')">j</li>
+        <li onclick="words('k')">k</li>
+        <li onclick="words('l')">l</li>
+        <li onclick="words('z')">z</li>
+        <li onclick="words('x')">x</li>
+        <li onclick="words('c')">c</li>
+        <li onclick="words('v')">v</li>
+        <li onclick="words('b')">b</li>
+        <li onclick="words('n')">n</li>
+        <li onclick="words('m')">m</li>
+        <li class="space" onclick="words('&nbsp;')"></li>
+      </ul>
+      <div class="start" onclick="Start()">Press to start</div>
+  </body>
+</html>

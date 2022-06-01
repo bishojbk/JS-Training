@@ -1,0 +1,33 @@
+/* body{
+    background-image :linear-gradient(#16A085,#F4D03F)
+} */
+
+
+.image
+{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left:400px;
+}
+.gif{
+    position: fixed;
+    left:10px;
+    height: 100px;
+    width:150px;
+}
+.play{
+   position: relative;
+   left:600px;
+   background-color: aqua;
+   cursor: pointer;
+   border:none;
+   color:blue;
+   display: inline-block;
+   font-size: 32px;
+   font-family:monospace;
+   padding:15px 32px;
+}
+.play:hover{
+    background-color:aquamarine
+}
