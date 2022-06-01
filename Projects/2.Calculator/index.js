@@ -17,16 +17,11 @@ function updateScreen(a) {
   if (a == ".") {
     checkIfDot = false;
   }
-  let numbers = clicks.split("");
-
   clicks = clicks + a;
   let screenValue = clicks.split("");
-  console.log(screenValue, screenValue.length);
   if (screenValue.length > 24) {
     let overflow = screenValue.length - 24;
-
     screenValue.splice(0, overflow);
-    console.log(screenValue);
   }
   document.getElementById("clicks").innerHTML = screenValue.join("");
 }
@@ -37,9 +32,7 @@ function displayScreen() {
 }
 function deleteScreen() {
   clicks = clicks.toString();
-  console.log(clicks);
   let del = clicks.split("");
-  console.log(del);
   del.pop();
   clicks = del.join("");
   document.getElementById("clicks").innerHTML = clicks;
