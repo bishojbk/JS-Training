@@ -8,37 +8,29 @@
     <link rel="stylesheet" href="./index.css" />
     <script src="./index.js"></script>
   </head>
-  <div  class="wrapper">
-      <div class="screen">
-        <!-- <div class="previous-operand"></div>
-        <div class="current-operand"></div> -->
-      </div>
-    <div class="grid">
-  
-    <button class="span2">AC</button>
-    <button>DEL</button>
-    <button>÷</button>
-   
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-    <button>*</button>
-    
-    <button>4</button>
-    <button>5</button>
-    <button>6</button>
-    <button>+</button>
-    
-    <button>7</button>
-    <button>8</button>
-    <button>9</button>
-    <button>-</button>
-    
-
-    <button>.</button>
-    <button>0</button>
-    <button class="span2">=</button>
+  <body>
+    <div class="wrapper">
+      <div class="screen" id="screen"><div id="clicks">0</div></div>
+      
+      <div class="grid">
+      <button type="button" class="button span2" onclick="clearScreen()">AC</button>
+      <button type="button" class="button" onclick="deleteScreen()">DEL</button>
+      <button type="button" class="button" onclick="updateScreen('/')">/</button>
+      <button type="button" id="one" class="button" onclick="updateScreen('1')">1</button>
+      <button type="button" class="button" onclick="updateScreen('2')">2</button>
+      <button type="button" class="button" onclick="updateScreen('3')">3</button>
+      <button type="button" class="button" onclick="updateScreen('*')">*</button>
+      <button type="button" class="button" onclick="updateScreen('4')">4</button>
+      <button type="button" class="button" onclick="updateScreen('5')">5</button>
+      <button type="button" class="button" onclick="updateScreen('6')">6</button>
+      <button type="button" class="button" onclick="updateScreen('+')">+</button>
+      <button type="button" class="button" onclick="updateScreen('7')">7</button>
+      <button type="button" class="button" onclick="updateScreen('8')">8</button>
+      <button type="button" class="button" onclick="updateScreen('9')">9</button>
+      <button type="button" class="button" onclick="updateScreen('-')">-</button>
+      <button type="button" class="button" onclick="updateScreen('0')">0</button>
+      <button type="button" class="button" onclick="updateScreen('.')">.</button>
+      <button type="button" class="button span2" onclick="displayScreen()">=</button>
     </div>
-  </div>
   </body>
 </html>
