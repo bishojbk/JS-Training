@@ -4,7 +4,7 @@ body{
 .pointer{
     cursor: pointer;
 }
-.div{
+.wrapper{
     position: relative;
     left: 430px;
     right: 20px;
@@ -21,10 +21,10 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
-.p{
+.clicks{
     font-size: 28px; font-weight: normal;
 }
-.Increase{
+.increase{
     position: relative;
     right: 22px;
     bottom: -50px;
@@ -38,7 +38,7 @@ body{
     width: 120px;
     border-radius: 10%;
 }
-.Decrease{
+.decrease{
     position: relative;
     left: 180px;
     bottom: 38px;
@@ -52,7 +52,7 @@ body{
     width: 120px;
     border-radius: 10%;
 }
-.Reset{
+.reset{
     position: relative;
     left: 90px;
     bottom: 38px;
