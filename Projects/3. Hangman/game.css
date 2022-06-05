@@ -127,8 +127,31 @@
     width:6px;
    display: inline-block;
    position: relative;
-  bottom:220px;
-left:315px;
+   bottom:220px;
+   left:315px;
    border-radius: 5%;
-   background-color: rgb(66, 64, 64);
+   background-color: black
   }
+  .lefthand{
+    transform: rotate(45deg);
+    height:80px;
+    width:6px;
+   display: inline-block;
+   position: relative;
+   bottom:220px;
+   left:275px;
+   border-radius: 5%;
+   background-color: black
+  }
+  .righthand{
+    transform: rotate(135deg);
+    height:80px;
+    width:6px;
+   display: inline-block;
+   position: relative;
+   bottom:223px;
+   left:322px;
+   border-radius: 5%;
+   background-color: black
+  }
+  
