@@ -8,16 +8,21 @@
     <link rel="stylesheet" href="./game.css" />
     <script src="./game.js"></script>
   </head>
-  <body>
     <div class="name">HANGMAN</div>
-    <br />
-    <br />
-    <br />
-    <div></div>
-
-    <div id="container"></div>
-    <div id="words" class="words">_ _ _ _ _</div>
-    <div id="container">
+    <!-- <br />
+  </br>
+  <br>
+  <br> -->
+  
+  <div class="stick"></div>
+  <div class="branch"></div>
+  <div class="root"></div>
+  <div class="smallstick"></div>
+  <div class="head"></div>
+  <div class="bodystick"></div>
+  <div id="start" class="start" onclick="Start()">Press to start</div>
+  <div id="words" class="words">_ _ _ _ _</div>
+  <div id="container">
       <ul id="keyboard">
         <li onclick="words('q')">q</li>
         <li onclick="words('w')">w</li>
@@ -47,6 +52,7 @@
         <li onclick="words('m')">m</li>
         <li class="space" onclick="words('&nbsp;')"></li>
       </ul>
-      <div id="start" class="start" onclick="Start()">Press to start</div>
+      
+    </div>
   </body>
 </html>

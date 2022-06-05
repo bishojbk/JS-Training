@@ -1,18 +1,25 @@
+/* html, body{
+    position: fixed;
+    top:0 ;
+    bottom:0;
+    left:0;
+    right:0;
+} */
 .name{
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   font-size:100px;
+   font-size:50px;
    color:darkblue;
    background-color: aqua;
-   top:20px;
-   width:500px;
+   top:10px;
+   width:260px;
    position: relative;
-   left:420px;
+   left:550px;
 }
 .start{
     font-size: x-large;
     position: relative;
-    left:-120px;
-    top:-320px;
+    left:580px;
+    top:-200px;
     cursor: pointer;
 }
 .words{
@@ -63,4 +70,65 @@
             border-color:blueviolet;
             cursor: pointer;
             }
-  
+ .stick {
+  height: 360px;
+  width: 18px;
+  display: inline-block;
+  position: relative;
+  bottom: 250px;
+  top:30px;
+  left:80px;
+  border-radius: 5%;
+  background-color: rgb(66, 64, 64);
+ }
+ .branch{
+     height:19px;
+     width:271px;
+    display: inline-block;
+    position: relative;
+    top:-290px;
+    left:60px;
+    border-radius: 5%;
+    background-color: rgb(66, 64, 64);
+ }
+ .root{
+    height:19px;
+    width:160px;
+   display: inline-block;
+   position: relative;
+   top:40px;
+   right:285px;
+   border-radius: 5%;
+   background-color: rgb(66, 64, 64);
+}
+.smallstick{
+    height:80px;
+    width:13px;
+   display: inline-block;
+   position: relative;
+   top:-210px;
+   right:150px;
+   border-radius: 5%;
+   background-color: rgb(66, 64, 64);
+}
+.head {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right:-285px;
+    top:-216px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+  }
+  .bodystick{
+    height:80px;
+    width:6px;
+   display: inline-block;
+   position: relative;
+  bottom:220px;
+left:315px;
+   border-radius: 5%;
+   background-color: rgb(66, 64, 64);
+  }
