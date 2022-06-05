@@ -14,4 +14,8 @@ function DCounter() {
 function RCounter() {
   clicks = 0;
   document.getElementById("clicks").innerHTML = clicks;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 91371dd8c3d0230353b32c48622c155a4b067fc5

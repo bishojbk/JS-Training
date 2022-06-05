@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(69,69,69);
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12ch;
+}
+.screen
+{
+  background-color: black;
+  min-width:400px;
+  max-width:400px;
+  min-height:100px;
+  font-size: xx-large;
+  color:whitesmoke;
+  display:flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+.button{
+  font-size: xx-large;
+  font-family:'Times New Roman', Times, serif;
+}
+.span2{
+  grid-column: span 2;
+}
+.button{
+  cursor:pointer;
+}
